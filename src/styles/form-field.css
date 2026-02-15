@@ -55,6 +55,7 @@
 }
 
 .form-field__input--small {
+  line-height: normal; 
   padding: 12px 33px;
   font-size: 14px;
 }
@@ -71,7 +72,6 @@
   );
   outline: none;
   font-weight: 900;
-  box-shadow: none;
 }
 
 .form-field__img--small {
