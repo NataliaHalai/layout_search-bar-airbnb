@@ -56,8 +56,6 @@
 
 .form-field__input--small {
   padding: 12px 33px;
-  width: 100%;
-  box-sizing: border-box;
   font-size: 14px;
 }
 
@@ -66,6 +64,13 @@
 }
 
 .form-field__input--small:focus {
+  background: linear-gradient(
+    180deg,
+    var(--color-bg-focus-start) 0%,
+    var(--color-bg-focus-end) 100%
+  );
+  outline: none;
+  font-weight: 900;
   box-shadow: none;
 }
 
